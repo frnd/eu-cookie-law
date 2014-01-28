@@ -26,7 +26,7 @@ jQuery(function($) {
 
 The plugin can be configured with the following options:
 
-```json
+```javascript
 {
     message: 'We use cookies on this website. To use the website as intended please...',
     acceptButtonText: 'Accept',
