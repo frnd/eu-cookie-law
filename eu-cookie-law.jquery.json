@@ -1,0 +1,28 @@
+{
+  "name": "eu-cookie-law",
+  "title": "EU Cookie Law",
+  "description": "Plugin that helps you to deal with the EU Cookie Law.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/frnd/eu-cookie-law",
+  "author": {
+    "name": "Fernando Gonzalez",
+    "url": "https://github.com/frnd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frnd/eu-cookie-law"
+  },
+  "bugs": "https://github.com/frnd/eu-cookie-law/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "~1.5"
+  },
+  "keywords": [
+    "jquery-plugin"
+  ]
+}
