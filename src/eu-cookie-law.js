@@ -11,7 +11,7 @@
     // Static method.
     $.euCookieLaw = function (options) {
         // Override default options with passed-in options.
-        $.euCookieLaw.options = $.extend({}, $.euCookieLaw.options, options);
+        $.euCookieLaw.options = $.extend(true, {}, $.euCookieLaw.options, options);
         // In case cookies are not accepted nor declined, show the popup.
         if (!$.euCookieAccepted() || $.euCookieDeclined()) {
             $.euCookieLawShow();
