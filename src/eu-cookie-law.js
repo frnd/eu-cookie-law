@@ -13,7 +13,7 @@
         // Override default options with passed-in options.
         $.euCookieLaw.options = $.extend({}, $.euCookieLaw.options, options);
         // In case cookies are not accepted nor declined, show the popup.
-        if (!$.euCookieAccepted() || !$.euCookieDeclined()) {
+        if (!$.euCookieAccepted() || $.euCookieDeclined()) {
             $.euCookieLawShow();
         }
     };
