@@ -41,7 +41,7 @@ The plugin can be configured with the following options:
 
 ## Examples
 
-https://raw.github.com/frnd/jquery-eu-cookie-law/master/example/example.html
+https://rawgit.com/frnd/eu-cookie-law/master/example/example.html
 
 ## Release History
 
